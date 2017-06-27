@@ -1,0 +1,11 @@
+package com.spring.aop;
+
+import org.aspectj.lang.annotation.Pointcut;
+
+public class Camera {
+	@Pointcut()
+	public void snap(){
+		System.out.println("SNAP");
+	}
+
+}

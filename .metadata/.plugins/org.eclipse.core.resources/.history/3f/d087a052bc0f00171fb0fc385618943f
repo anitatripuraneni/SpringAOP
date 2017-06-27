@@ -1,0 +1,14 @@
+package com.spring.aop;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Camera1 {
+	
+	public void snap() {
+		System.out.println("SNAP");
+		 new Exception("bye bye");
+	}
+	
+
+}

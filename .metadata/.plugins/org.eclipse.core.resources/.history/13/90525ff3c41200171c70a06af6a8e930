@@ -1,0 +1,12 @@
+package com.spring.aop.jungle;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Jungle {
+	
+	public void forest(){
+		System.out.println("All animals leave happily in jungle");
+	}
+
+}

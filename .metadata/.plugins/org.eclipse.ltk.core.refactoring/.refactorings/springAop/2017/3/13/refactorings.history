@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;springAop/src/com.spring.aop.jungle&apos;&#x0D;&#x0A;- Original project: &apos;springAop&apos;&#x0D;&#x0A;- Destination element: &apos;springAop/src/com.spring.aop.jungle&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     com.spring.aop.Jungle.java&#x0D;&#x0A;     com.spring.aop.Zoo.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;com.spring.aop.jungle" element1="/src&lt;com.spring.aop{Jungle.java" element2="/src&lt;com.spring.aop{Zoo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1490602039140" units="2" version="1.0"/>
+</session>

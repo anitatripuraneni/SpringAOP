@@ -1,0 +1,12 @@
+package com.spring.aop;
+
+import org.springframework.stereotype.Component;
+
+@Component("logger")
+public class Logger {
+
+	public void aboutToTakePhoto() {
+		System.out.println("About to take photo");
+	}
+
+}

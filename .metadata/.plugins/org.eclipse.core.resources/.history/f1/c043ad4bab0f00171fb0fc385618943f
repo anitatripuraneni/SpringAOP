@@ -1,0 +1,17 @@
+package com.spring.aop;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class AopApp {
+
+	public static void main(String[] args) {
+		ApplicationContext con = new ClassPathXmlApplicationContext("com/spring/aop/beans/aopbeans.xml");
+		Camera cam =(Camera)con.getBean("camera");
+		cam.snap();
+		cam.snap(100);
+		((ClassPathXmlApplicationContext)con).close();
+
+	}
+
+}

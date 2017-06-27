@@ -1,0 +1,11 @@
+package com.spring.aop;
+
+public class Camera1 {
+	
+	public void snap() throws Exception{
+		System.out.println("SNAP");
+		 new Exception("bye bye");
+	}
+	
+
+}
